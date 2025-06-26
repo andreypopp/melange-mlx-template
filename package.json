@@ -4,7 +4,7 @@
     "preinstall-opam": "opam update",
     "install-opam": "opam install -y . --deps-only --with-dev-setup",
     "check-npm-deps": "opam exec opam-check-npm-deps",
-    "init": "opam switch create . 5.2.0 -y --deps-only && npm run install-opam-npm",
+    "init": "opam switch create . 5.3.0 -y --deps-only && npm run install-opam-npm",
     "install-opam-npm": "npm install && npm run install-opam && npm run check-npm-deps",
     "dune": "opam exec -- dune",
     "build": "npm run dune -- build @react @node",
