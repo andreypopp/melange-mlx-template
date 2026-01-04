@@ -14,7 +14,7 @@ depends: [
   "reason-react" {>= "0.15.0"}
   "reason-react-ppx"
   "opam-check-npm-deps" {with-dev-setup}
-  "ocaml-lsp-server" {with-dev-setup}
+  "ocaml-lsp-server" {>="1.25.0" & with-dev-setup}
   "ocamlmerlin-mlx" {with-dev-setup}
   "ocamlformat-mlx" {with-dev-setup}
   "odoc" {with-doc}
